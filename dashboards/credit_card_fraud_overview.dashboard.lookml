@@ -493,7 +493,7 @@
     height: 9
   - title: Calls for Fraud This Month
     name: Calls for Fraud This Month
-    model: call_center
+    model: Looker_Demo_call_center
     explore: transcript
     type: single_value
     fields: [transcript.count, satisfaction_ratings.average_csat]

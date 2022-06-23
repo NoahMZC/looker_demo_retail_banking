@@ -273,7 +273,7 @@
     height: 8
   - title: Call Center Conversations by Sentiment
     name: Call Center Conversations by Sentiment
-    model: call_center
+    model: Looker_Demo_call_center
     explore: transcript
     type: looker_scatter
     fields: [transcript.count, transcript.conversation_start_week, conversation_facts.overall_call_sentiment_category]
